@@ -1,1 +1,1 @@
-# EC601 - VQA Project 
+# EC601 - VQA - For Visually Impaired
