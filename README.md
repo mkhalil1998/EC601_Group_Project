@@ -34,3 +34,13 @@ Were able to sucessfully train three models, one of which is the state of the ar
 -----------------
 Reformatted VizWiz data set to fit the structure of VQA v2 as well as reformatted VQA v2 data set to fit the structure of VizWiz. We then trained and validated the VizWiz data on one of our models. Finally, continued working on the state of the art model VinVL. Visit [VQA-Sprint3.pdf](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/VQA-Sprint3.pdf) for more details. 
 
+### Reformatting Data:
+
+The vizwiz data set is the second data set used in our project. VizWiz arises from a natural setting, reflecting a use case where a person asks questions about the surrounding world. 
+
+The vizwiz data set can be downloaded and unzipped from the following webpage: https://vizwiz.org/tasks-and-datasets/vqa/.
+Four files should be downloaded and unzipped: 
+Images: training, validation, and test sets. And annotations (note annotation file contains train, valid, and test)
+
+Now unlike VQA v2, where questions and annotations are found in different folders. For vizwiz, both questions and answers are found together. A code was developed to restructure the data from vizwiz to vqa v2 or vice versa to fit the needs of the model being used. 
+
