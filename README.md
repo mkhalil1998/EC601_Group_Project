@@ -20,7 +20,9 @@ Were able to sucessfully train three models, one of which is the state of the ar
 ### Model 1: Visual Question Answering(https://arxiv.org/pdf/1505.00468.pdf).
   
   A pytorch implementation of the model was followed using [this github](https://github.com/tbmoon/basic_vqa). 
+  
   Steps for the training and validation are found on the gitub listed above. 
+  
   VQA - v2 data set is used for training and validation: https://visualqa.org/download.html.
 
 
