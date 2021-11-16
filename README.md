@@ -25,6 +25,10 @@ Were able to sucessfully train three models, one of which is the state of the ar
   
   VQA - v2 data set is used for training and validation: https://visualqa.org/download.html.
 
+  After training and validating on VQA - v2 we were able to get the following results: 
+  
+  ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/train_val_basic_vqa.png)
+
 
 **VQA Sprint 3** 
 -----------------
