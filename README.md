@@ -5,7 +5,7 @@
 --------------------
 
 Literature review of VQA. This includes researching data sets and different architectures used previously as well as the newest state of the art models. 
-It also includes a detailed review of the different methods used depending on the type of problem that is being tackled.
+It also includes a detailed review of the different methods used depending on the type of problem that is being tackled. Visit [EC-601 HW1.pdf](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/EC-601%20HW1.pdf) for more details. 
 
 **VQA Sprint 1** 
 -----------------
