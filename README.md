@@ -52,3 +52,17 @@ Now unlike VQA v2, where questions and annotations are found in different folder
 
 [data-converter.py](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/data-converter.py) can be leveraged to perform such task.
 
+Steps for converting data: 
+
+### Training and Validating reformatted vizwiz data on Model 1: 
+
+The output of the data_converter.py will provide the files for questions and annotations that fit the same structure of VQA v2. These files should be added to a folder containing the training, validation and testing images for vizwiz. The folder should contain three files: images, question and annotations. Following this step the same process for training and validation done on VQA v2 is followed. Only the path to the new data set folder should be changed. 
+
+
+
+
+
+
+
+
+
