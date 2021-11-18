@@ -46,6 +46,7 @@ The vizwiz data set is the second data set used in our project. VizWiz arises fr
 
 The vizwiz data set can be downloaded and unzipped from the following webpage: https://vizwiz.org/tasks-and-datasets/vqa/.
 Four files should be downloaded and unzipped: 
+
     - Images: training, validation, and test sets. 
     - Annotations (note: annotation file contains train, valid, and test)
 
