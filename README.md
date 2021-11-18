@@ -54,7 +54,7 @@ Now unlike VQA v2, where questions and annotations are found in different folder
 
 Steps for converting data: 
 
-### Training and Validating reformatted VizWiz data on Model 1: 
+### Training and Validating Reformatted VizWiz Data on Model 1: 
 
 The output of the data_converter.py will provide the files for questions and annotations that fit the same structure of VQA v2. These files should be added to a folder containing the training, validation and testing images for vizwiz. The folder should contain three files: images, question and annotations. Following this step the same process for training and validation done on VQA v2 is followed. Only the path to the new data set folder should be changed. 
 
@@ -62,6 +62,21 @@ After training and validating on Viz Wiz we were able to get the following resul
   
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/train_val_vizwiz_basic_vqa.png)
 
+
+**VQA Sprint 4** 
+-----------------
+
+### Data Sets Exploratory Analysis:
+Further analysis of the two data sets being used was done to understand how can they be used together in model training. 
+
+- VQA v-2 
+The VQA dataset has been constructed using images from the MS COCO dataset and crowdsourcing questions and answers. Visual content in MS COCO is originating from a web-based image search and it is typically high-quality. Moreover, VQA authors have instructed the crowdsourced workers to collect interesting, diverse, and well posed questions.
+
+- VizWiz
+Originally was a phone application aimed at helping blind people with their daily visual problems. VizWiz was allowing visually impaired users to take a picture, ask verbally a question that they would like answered about the picture. After it shut down, the data was collected and used. For each image there was a question. They then crowdsourced the answers to make the data set complete. Two main takeaways: 
+
+    -	Images are often characterized by poor quality due to poor lighting, focus, and framing of the content of interest
+    -	questions are in average more conversational and sometimes are incomplete due to audio recording imperfections such as clipping a question at the end or recording background audio content
 
 
 
