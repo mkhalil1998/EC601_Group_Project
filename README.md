@@ -15,7 +15,7 @@ Defined our project user stories, as well as the evolution of research that has 
 **VQA Sprint 2** 
 -----------------
 
-Were able to sucessfully train three models, one of which is the state of the art models and show the training and validation results. Also some testing was done to understand the flexibilities of the model being trained. Visit [VQA-Sprint2.pdf](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/VQA-Sprint2.pdf) for more details. 
+We were able to sucessfully train three models, one of which is the state of the art models and show the training and validation results. Also some testing was done to understand the flexibilities of the model being trained. Visit [VQA-Sprint2.pdf](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/VQA-Sprint2.pdf) for more details. 
 
 ### Model 1: Visual Question Answering(https://arxiv.org/pdf/1505.00468.pdf).
 
