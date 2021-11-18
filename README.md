@@ -18,15 +18,15 @@ Defined our project user stories, as well as the evolution of research that has 
 Were able to sucessfully train three models, one of which is the state of the art models and show the training and validation results. Also some testing was done to understand the flexibilities of the model being trained. Visit [VQA-Sprint2.pdf](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/VQA-Sprint2.pdf) for more details. 
 
 ### Model 1: Visual Question Answering(https://arxiv.org/pdf/1505.00468.pdf).
-  
-  A pytorch implementation of the model was followed using [this github](https://github.com/tbmoon/basic_vqa). 
-  
+
   The model consists of the following: 
   - A two layer LSTM to encode the questions.
   - The last hidden layer of VGGNet to encode the image followed by feature normalization. 
   - Fusion via element-wise multiplication.
   - Fully connected layer followed by a softmax layer to obtain a distribution over answers.
 
+  A pytorch implementation of the model was followed using [this github](https://github.com/tbmoon/basic_vqa). 
+  
   Steps for the training and validation are found on the gitub listed above. 
   
   VQA - v2 data set is used for training and validation: https://visualqa.org/download.html.
