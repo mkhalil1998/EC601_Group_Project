@@ -58,8 +58,9 @@ Steps for converting data:
 
 The output of the data_converter.py will provide the files for questions and annotations that fit the same structure of VQA v2. These files should be added to a folder containing the training, validation and testing images for vizwiz. The folder should contain three files: images, question and annotations. Following this step the same process for training and validation done on VQA v2 is followed. Only the path to the new data set folder should be changed. 
 
-
-
+After training and validating on Viz Wiz we were able to get the following results: 
+  
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/train_val_vizwiz_basic_vqa.png)
 
 
 
