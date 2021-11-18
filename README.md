@@ -80,7 +80,7 @@ Originally was a phone application aimed at helping blind people with their dail
 
 - VizWiz vs VQA v-2
 
-
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/Comparison.png)
 
 
 
