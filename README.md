@@ -21,6 +21,12 @@ Were able to sucessfully train three models, one of which is the state of the ar
   
   A pytorch implementation of the model was followed using [this github](https://github.com/tbmoon/basic_vqa). 
   
+  The model consists of the following: 
+  - A two layer LSTM to encode the questions.
+  - The last hidden layer of VGGNet to encode the image followed by feature normalization. 
+  - Fusion via element-wise multiplication.
+  - Fully connected layer followed by a softmax layer to obtain a distribution over answers.
+
   Steps for the training and validation are found on the gitub listed above. 
   
   VQA - v2 data set is used for training and validation: https://visualqa.org/download.html.
