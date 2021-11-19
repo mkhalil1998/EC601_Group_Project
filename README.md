@@ -64,7 +64,7 @@ The output of the data_converter.py will provide the files for questions and ann
 
 After training and validating on Viz Wiz we were able to get the following results: 
   
-![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/train_val_vizwiz_basic_vqa.png)
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/train_vizwiz_basicvqa.png)
 
 
 **VQA Sprint 4** 
