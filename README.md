@@ -28,7 +28,7 @@ Originally was a phone application aimed at helping blind people with their dail
  - Images are often characterized by poor quality due to poor lighting, focus, and framing of the content of interest
  - Questions are in average more conversational and sometimes are incomplete due to audio recording imperfections such as clipping a question at the end or recording background audio content
 
-- VizWiz vs VQA v-2
+VizWiz vs VQA v-2
 
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/Comparison.png)
 
