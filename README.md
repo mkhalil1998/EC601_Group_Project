@@ -86,6 +86,10 @@ After training and validating on Viz Wiz we were able to get the following resul
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/train_vizwiz_basicvqa.png)
 
 
+In order to check how well the model generalizes using the vqa v2 dataset, training on vqa v2 and validation using vizwiz was done: 
+
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/val_vizwiz.png)
+
 **Data Sets Exploratory Analysis** 
 ----------------------------------
 
