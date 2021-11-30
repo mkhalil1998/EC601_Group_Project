@@ -46,6 +46,9 @@ We were able to sucessfully train three models, one of which is the state of the
   - Fusion via element-wise multiplication.
   - Fully connected layer followed by a softmax layer to obtain a distribution over answers.
 
+![alt text]( https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/Architecture_1.png)
+
+
   A pytorch implementation of the model was followed using [this github](https://github.com/tbmoon/basic_vqa). 
   
   Steps for the training and validation are found on the gitub listed above. 
