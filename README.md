@@ -25,8 +25,8 @@ The VQA dataset has been constructed using images from the MS COCO dataset and c
 VizWiz
 Originally was a phone application aimed at helping blind people with their daily visual problems. VizWiz was allowing visually impaired users to take a picture, ask verbally a question that they would like answered about the picture. After it shut down, the data was collected and used. For each image there was a question. They then crowdsourced the answers to make the data set complete. Two main takeaways: 
 
-    -	Images are often characterized by poor quality due to poor lighting, focus, and framing of the content of interest
-    -	questions are in average more conversational and sometimes are incomplete due to audio recording imperfections such as clipping a question at the end or recording background audio content
+ - Images are often characterized by poor quality due to poor lighting, focus, and framing of the content of interest
+ - Questions are in average more conversational and sometimes are incomplete due to audio recording imperfections such as clipping a question at the end or recording background audio content
 
 - VizWiz vs VQA v-2
 
