@@ -60,6 +60,8 @@ We were able to sucessfully train three models, one of which is the state of the
   ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/train_val_basic_vqa.png)
 
 
+
+
 **VQA Sprint 3** 
 -----------------
 Reformatted VizWiz data set to fit the structure of VQA v2 as well as reformatted VQA v2 data set to fit the structure of VizWiz. We then trained and validated the VizWiz data on one of our models. Finally, continued working on the state of the art model VinVL. Visit [VQA-Sprint3.pdf](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/VQA-Sprint3.pdf) for more details. 
@@ -91,24 +93,11 @@ After training and validating on Viz Wiz we were able to get the following resul
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/train_vizwiz_basicvqa.png)
 
 
-**VQA Sprint 4** 
------------------
+**Data Sets Exploratory Analysis** 
+----------------------------------
 
-### Data Sets Exploratory Analysis:
 Further analysis of the two data sets being used was done to understand how can they be used together in model training. 
 
-- VQA v-2 
-The VQA dataset has been constructed using images from the MS COCO dataset and crowdsourcing questions and answers. Visual content in MS COCO is originating from a web-based image search and it is typically high-quality. Moreover, VQA authors have instructed the crowdsourced workers to collect interesting, diverse, and well posed questions.
-
-- VizWiz
-Originally was a phone application aimed at helping blind people with their daily visual problems. VizWiz was allowing visually impaired users to take a picture, ask verbally a question that they would like answered about the picture. After it shut down, the data was collected and used. For each image there was a question. They then crowdsourced the answers to make the data set complete. Two main takeaways: 
-
-    -	Images are often characterized by poor quality due to poor lighting, focus, and framing of the content of interest
-    -	questions are in average more conversational and sometimes are incomplete due to audio recording imperfections such as clipping a question at the end or recording background audio content
-
-- VizWiz vs VQA v-2
-
-![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/Comparison.png)
 
 
 
