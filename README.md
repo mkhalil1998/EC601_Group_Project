@@ -6,13 +6,35 @@ A natural application of artificial intelligence is to help blind people overcom
 
 A Literature review of VQA has been done. This includes researching data sets and different architectures used previously as well as the newest state of the art models. It also includes a detailed review of the different methods used depending on the type of problem that is being tackled. Visit [EC-601 HW1.pdf](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/EC-601%20HW1.pdf) for more details. 
 
-**VQA Sprint 1** 
------------------
+**Objectives:** 
+--------------------
+- Research and understand the evolution of VQA architectures
 
-Defined our project user stories, as well as the evolution of research that has been done in VQA for visually impaired. A list of architectures has been chosen for us to begin looking into and training. Visit [VQA-Sprint1.pdf](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/VQA-Sprint1.pdf) for more details. 
+- Train and validate different VQA architectures to compare performance and while examining the limitation of the models
 
-**VQA Sprint 2** 
------------------
+- Understand the domain shift that is need to be considered when designing VQA solutions to empower visually impaired  people 
+
+- Evaluate and propose techniques to address the differences  found within the VQA datasets.
+
+
+**Data sets:** 
+--------------------
+VQA v-2 
+The VQA dataset has been constructed using images from the MS COCO dataset and crowdsourcing questions and answers. Visual content in MS COCO is originating from a web-based image search and it is typically high-quality. Moreover, VQA authors have instructed the crowdsourced workers to collect interesting, diverse, and well posed questions.
+
+- VizWiz
+Originally was a phone application aimed at helping blind people with their daily visual problems. VizWiz was allowing visually impaired users to take a picture, ask verbally a question that they would like answered about the picture. After it shut down, the data was collected and used. For each image there was a question. They then crowdsourced the answers to make the data set complete. Two main takeaways: 
+
+    -	Images are often characterized by poor quality due to poor lighting, focus, and framing of the content of interest
+    -	questions are in average more conversational and sometimes are incomplete due to audio recording imperfections such as clipping a question at the end or recording background audio content
+
+- VizWiz vs VQA v-2
+
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/Comparison.png)
+
+
+**Architectures & Results** 
+---------------------------
 
 We were able to sucessfully train three models, one of which is the state of the art models. We show the training and validation results. Visit [VQA-Sprint2.pdf](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/VQA-Sprint2.pdf) for more details. 
 
