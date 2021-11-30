@@ -32,7 +32,6 @@ VizWiz vs VQA v-2
 
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/Comparison.png)
 
-Reformatted VizWiz data set to fit the structure of VQA v2 as well as reformatted VQA v2 data set to fit the structure of VizWiz. We then trained and validated the VizWiz data on one of our models. Finally, continued working on the state of the art model VinVL. Visit [VQA-Sprint3.pdf](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/VQA-Sprint3.pdf) for more details. 
 
 ### Reformatting Data:
 
@@ -51,6 +50,7 @@ Now unlike VQA v2, where questions and annotations are found in different folder
 [data-converter.py](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/data-converter.py) can be leveraged to perform such task.
 
 Steps for converting data: 
+
 
 **Architectures & Results** 
 ---------------------------
