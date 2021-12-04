@@ -116,9 +116,16 @@ Second we visualized the distribution of number of words in the questions. We no
 
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/word_dis.png)
 
-
+We then created a sunburst plot for istribution of the first words of all the questions in VQA and VizWiz. We observed that in vizwiz there is more diversity in the starting word used compared to vqa v2. 
 
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/sunburst_questions.png)
 
+Finally, we created a word cloud to show the most prominent words used in the questions:
+
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/wordcloud_questions.png)
+
+We concluded that there is a big difference between the common initial words, number of words and type of questions used in the datasets. 
+
+**Answers:** 
+
 
