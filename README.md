@@ -117,3 +117,8 @@ Second we visualized the distribution of number of words in the questions. We no
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/word_dis.png)
 
 
+
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/sunburst_questions.png)
+
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/wordcloud_questions.png)
+
