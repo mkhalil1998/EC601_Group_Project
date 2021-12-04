@@ -93,9 +93,9 @@ In order to check how well the model generalizes using the vqa v2 dataset, train
 **Data Sets Exploratory Analysis** 
 ----------------------------------
 
-Further analysis of the two data sets being used was done to understand how can they be used together in model training. 
+Due to the poor performance (Low accuracy) of validation of the vizwiz dataset on the models trained on VQA v2, we decided to investigate and further understand the differences between the dataset. In the hopes that this process will help us identify steps needed to get a better accuracy on the vizwiz dataset. 
 
-
+The datasets include images, questions and answers. 
 
 
 
