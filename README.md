@@ -1,12 +1,12 @@
 # EC601 - VQA - For Visually Impaired
 
-**Introduction** 
+## Introduction 
 --------------------
 A natural application of artificial intelligence is to help blind people overcome their daily visual challenges and allowing them to live a healthy and independent life through AI-based assistive technologies. In this regard, one of the most promising tasks is Visual Question Answering (VQA).
 
 A Literature review of VQA has been done. This includes researching data sets and different architectures used previously as well as the newest state of the art models. It also includes a detailed review of the different methods used depending on the type of problem that is being tackled. Visit [EC-601 HW1.pdf](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/EC-601%20HW1.pdf) for more details. 
 
-**Objectives:** 
+## Objectives:
 --------------------
 - Research and understand the evolution of VQA architectures
 
@@ -17,8 +17,8 @@ A Literature review of VQA has been done. This includes researching data sets an
 - Evaluate and propose techniques to address the differences  found within the VQA datasets.
 
 
-**Data sets:** 
---------------------
+## Data sets:
+-------------------
 VQA v-2 
 The VQA dataset has been constructed using images from the MS COCO dataset and crowdsourcing questions and answers. Visual content in MS COCO is originating from a web-based image search and it is typically high-quality. Moreover, VQA authors have instructed the crowdsourced workers to collect interesting, diverse, and well posed questions.
 
@@ -52,7 +52,7 @@ Now unlike VQA v2, where questions and annotations are found in different folder
 Steps for converting data: 
 
 
-**Architectures & Results** 
+##Architectures & Results
 ---------------------------
 
 We were able to sucessfully train three models, one of which is the state of the art models. We show the training and validation results.
@@ -90,12 +90,21 @@ In order to check how well the model generalizes using the vqa v2 dataset, train
 
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/val_vizwiz.png)
 
-**Data Sets Exploratory Analysis** 
-----------------------------------
+## Data Sets Exploratory Analysis 
+---------------------------------
 
 Due to the poor performance (Low accuracy) of validation of the vizwiz dataset on the models trained on VQA v2, we decided to investigate and further understand the differences between the dataset. In the hopes that this process will help us identify steps needed to get a better accuracy on the vizwiz dataset. 
 
 The datasets include images, questions and answers. 
 
+**Images** 
+-----------
+Comparing the data sets, we can observe that there is a size difference. VQA v-2 is much larger than then vizwiz (80000 training images for vqa v2 compared to 20000 for vizwiz). In addition, the quality of images in VQA v2 are much better than vizwiz. Many images in vizwiz contain partially the object of interest. 
+
+Example for an Image in VQA v2: 
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/VQA_Image.jpg)
+
+Example for an Image in vizwiz: 
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/VizWiz_Image.jpg)
 
 
