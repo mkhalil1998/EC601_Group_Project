@@ -1,13 +1,13 @@
 # EC601 - VQA - For Visually Impaired
 
 ## Introduction 
---------------------
+
 A natural application of artificial intelligence is to help blind people overcome their daily visual challenges and allowing them to live a healthy and independent life through AI-based assistive technologies. In this regard, one of the most promising tasks is Visual Question Answering (VQA).
 
 A Literature review of VQA has been done. This includes researching data sets and different architectures used previously as well as the newest state of the art models. It also includes a detailed review of the different methods used depending on the type of problem that is being tackled. Visit [EC-601 HW1.pdf](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/EC-601%20HW1.pdf) for more details. 
 
 ## Objectives:
---------------------
+
 - Research and understand the evolution of VQA architectures
 
 - Train and validate different VQA architectures to compare performance and while examining the limitation of the models
@@ -18,7 +18,7 @@ A Literature review of VQA has been done. This includes researching data sets an
 
 
 ## Data sets:
--------------------
+
 VQA v-2 
 The VQA dataset has been constructed using images from the MS COCO dataset and crowdsourcing questions and answers. Visual content in MS COCO is originating from a web-based image search and it is typically high-quality. Moreover, VQA authors have instructed the crowdsourced workers to collect interesting, diverse, and well posed questions.
 
@@ -52,8 +52,8 @@ Now unlike VQA v2, where questions and annotations are found in different folder
 Steps for converting data: 
 
 
-##Architectures & Results
----------------------------
+## Architectures & Results
+
 
 We were able to sucessfully train three models, one of which is the state of the art models. We show the training and validation results.
 
