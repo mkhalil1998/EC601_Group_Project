@@ -100,14 +100,9 @@ The datasets include images, questions and answers.
 
 Comparing the data sets, we can observe that there is a size difference. VQA v-2 is much larger than then vizwiz (80000 training images for vqa v2 compared to 20000 for vizwiz). In addition, the quality of images in VQA v2 are much better than vizwiz. Many images in vizwiz contain partially the object of interest. 
 
-Example for an Image in VQA v2: 
+Example for images:
 
-![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/VQA_Image.jpg)
-
-
-Example for an Image in vizwiz: 
-
-![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/Vizwiz_Image.jpeg)
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/images.png)
 
 
 **Questions:** 
