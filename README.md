@@ -91,14 +91,13 @@ In order to check how well the model generalizes using the vqa v2 dataset, train
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/val_vizwiz.png)
 
 ## Data Sets Exploratory Analysis 
----------------------------------
 
 Due to the poor performance (Low accuracy) of validation of the vizwiz dataset on the models trained on VQA v2, we decided to investigate and further understand the differences between the dataset. In the hopes that this process will help us identify steps needed to get a better accuracy on the vizwiz dataset. 
 
 The datasets include images, questions and answers. 
 
 **Images** 
------------
+
 Comparing the data sets, we can observe that there is a size difference. VQA v-2 is much larger than then vizwiz (80000 training images for vqa v2 compared to 20000 for vizwiz). In addition, the quality of images in VQA v2 are much better than vizwiz. Many images in vizwiz contain partially the object of interest. 
 
 Example for an Image in VQA v2: 
@@ -109,5 +108,17 @@ Example for an Image in VQA v2:
 Example for an Image in vizwiz: 
 
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/Vizwiz_Image.jpeg)
+
+
+**Questions:** 
+
+We then started comparing the questions between the two datasets. 
+
+The first thing we noticed is the difference between the questions. In VQA v2 there are 10 questions per image, while in vizwiz there is 1 question per image. 
+VQA v2 has around a million visual questions while vizwiz has around 31,000 visual questions. 
+
+Second we visualized the distribution of number of words in the questions. We noticed that most questions are between 5-10 words, however, in vizwiz there are questions that are around 40-50 words. We attribute these outliers to the fact that questions in vizwiz are asked in a conversational setting. 
+
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/word_dis.png)
 
 
