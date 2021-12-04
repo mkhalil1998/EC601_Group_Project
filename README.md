@@ -128,4 +128,18 @@ We concluded that there is a big difference between the common initial words, nu
 
 **Answers:** 
 
+We then moved on to analyze and understand the difference between answers in both datasets. 
+
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/questions_1.png)
+
+
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/questions_2.png)
+
+
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/questions_3.png)
+
+
+
+
+
 
