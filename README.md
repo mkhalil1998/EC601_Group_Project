@@ -88,10 +88,9 @@ In order to check how well the model generalizes using the vqa v2 dataset, train
 
 Note:  The accuracy of the model was calculated based on: 
 
-        Accuracy = min( # of humans who provided the answer / 3, 1) 
+Accuracy = min( # of humans who provided the answer / 3, 1) 
         
-        Meaning an answer is considered 100% accurate if at least 3 workers provided that exact answer.
-        When comparing the answers, all responses are made lowercase, numbers converted to digits, and punctuation & articles removed.
+Meaning an answer is considered 100% accurate if at least 3 workers provided that exact answer. When comparing the answers, all responses are made lowercase, numbers converted to digits, and punctuation & articles removed.
 
 
 ## Data Sets Exploratory Analysis 
