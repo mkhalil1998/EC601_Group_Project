@@ -98,7 +98,7 @@ The datasets include images, questions and answers.
 
 **Images** 
 
-Comparing the data sets, we can observe that there is a size difference. VQA v-2 is much larger than then vizwiz (80000 training images for vqa v2 compared to 20000 for vizwiz). In addition, the quality of images in VQA v2 are much better than vizwiz. Many images in vizwiz contain partially the object of interest. 
+Comparing the images in both data sets, we can observe that there is a size difference. VQA v-2 is much larger than then vizwiz (80000 training images for vqa v2 compared to 20000 for vizwiz). In addition, the quality of images in VQA v2 are much better than vizwiz. Many images in vizwiz contain partially the object of interest. 
 
 Example for images:
 
@@ -107,16 +107,13 @@ Example for images:
 
 **Questions:** 
 
-We then started comparing the questions between the two datasets. 
-
-The first thing we noticed is the difference between the questions. In VQA v2 there are 10 questions per image, while in vizwiz there is 1 question per image. 
-VQA v2 has around a million visual questions while vizwiz has around 31,000 visual questions. 
+We then started comparing the questions between the two datasets. The first thing we noticed is the difference between the number questions. In VQA v2 there are 10 questions per image, while in vizwiz there is 1 question per image. VQA v2 has around a million visual questions while vizwiz has around 31,000 visual questions. 
 
 Second we visualized the distribution of number of words in the questions. We noticed that most questions are between 5-10 words, however, in vizwiz there are questions that are around 40-50 words. We attribute these outliers to the fact that questions in vizwiz are asked in a conversational setting. 
 
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/word_dis.png)
 
-We then created a sunburst plot for istribution of the first words of all the questions in VQA and VizWiz. We observed that in vizwiz there is more diversity in the starting word used compared to vqa v2. 
+We then created a sunburst plot for istribution of the first words of all the questions in VQA v2 and VizWiz. We observed that in vizwiz there is more diversity in the starting word used compared to VQA v2. 
 
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/sunburst_questions.png)
 
@@ -128,18 +125,21 @@ We concluded that there is a big difference between the common initial words, nu
 
 **Answers:** 
 
-We then moved on to analyze and understand the difference between answers in both datasets. 
+We then moved on to analyze and understand the difference between answers in both datasets. In VizWiz, 67% of answers have one word, 20% two words. In VQA v2.0 instead 89.3% of answers have one word, 6.9% two words. We were also interested in comparing the frequency of the unigrams found in the answers in both datasets. We plotted the top 30 words, what was most interesting is unanswerable and unsuitable, compared to yes and no respectively for VQA v2. 
 
-![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/questions_1.png)
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/question_1.png)
 
+
+ We created a word cloud to show the most prominent words used in the answers:
+
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/questions_3.png)
+
+An additional feature that is found in both datasets is level of confidence. An number between 0-1 is given by the annotator for each answer so that the he or she can provide the level of confidence for the answer they provide. A distribution plot was created and it shows that in vizwiz there are as much number of answers that were given a confidence between 0.7-0.9 as the ones given a 1 confidence level. This shows that overall there was level confidence in answers provided for the questions in vizwiz than in VQA v2, and this can be attributed to the quality of images. 
 
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/questions_2.png)
 
 
-![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/questions_3.png)
 
-
-
-
+## References:
 
 
