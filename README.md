@@ -82,10 +82,17 @@ After training and validating on Viz Wiz we were able to get the following resul
   
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/train_vizwiz_basicvqa.png)
 
-
 In order to check how well the model generalizes using the vqa v2 dataset, training on vqa v2 and validation using vizwiz was done: 
 
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/val_vizwiz.png)
+
+Note:  The accuracy of the model was calculated based on: 
+
+        Accuracy = min( # of humans who provided the answer / 3, 1) 
+        
+        Meaning an answer is considered 100% accurate if at least 3 workers provided that exact answer.
+        When comparing the answers, all responses are made lowercase, numbers converted to digits, and punctuation & articles removed.
+
 
 ## Data Sets Exploratory Analysis 
 
@@ -125,7 +132,6 @@ We concluded that there is a big difference between the common initial words, nu
 We then moved on to analyze and understand the difference between answers in both datasets. In VizWiz, 67% of answers have one word, 20% two words. In VQA v2.0 instead 89.3% of answers have one word, 6.9% two words. We were also interested in comparing the frequency of the unigrams found in the answers in both datasets. We plotted the top 30 words, what was most interesting is unanswerable and unsuitable, compared to yes and no respectively for VQA v2. 
 
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/question_1.png)
-
 
  We created a word cloud to show the most prominent words used in the answers:
 
