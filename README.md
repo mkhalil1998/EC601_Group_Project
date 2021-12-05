@@ -49,11 +49,8 @@ Now unlike VQA v2, where questions and annotations are found in different folder
 
 [data-converter.py](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/data-converter.py) can be leveraged to perform such task.
 
-Steps for converting data: 
-
 
 ## Architectures & Results
-
 
 We were able to sucessfully train three models, one of which is the state of the art models. We show the training and validation results.
 
@@ -138,8 +135,16 @@ An additional feature that is found in both datasets is level of confidence. An 
 
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/questions_2.png)
 
-
-
 ## References:
+
+https://github.com/tbmoon/basic_vqa
+
+https://vizwiz.org/tasks-and-datasets/vqa/.
+
+https://github.com/DenisDsh/VizWiz-VQA-PyTorch
+
+https://github.com/pzzhang/VinVL
+
+https://kth.diva-portal.org/smash/get/diva2:1299462/FULLTEXT01.pdf
 
 
