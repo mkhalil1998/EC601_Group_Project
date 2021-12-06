@@ -92,6 +92,15 @@ Accuracy = min( # of humans who provided the answer / 3, 1)
         
 Meaning an answer is considered 100% accurate if at least 3 workers provided that exact answer. When comparing the answers, all responses are made lowercase, numbers converted to digits, and punctuation & articles removed.
 
+### Model 2: A Strong Baseline For Visual Question Answering (https://arxiv.org/abs/1704.03162).
+
+The model is consisted of the following:
+- A convolutional neural network based on ResNet to embed the image.
+- Input question is tokenized and embedded and fed to a multi-layer LSTM. 
+- Features and the final state of LSTMs are used to compute multiple attention distributions over image features. 
+- Image feature glimpses and the state of LSTM fed into two fully connected layers two produce probabilities over answer classes.
+
+
 
 ## Data Sets Exploratory Analysis 
 
