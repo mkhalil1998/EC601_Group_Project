@@ -100,7 +100,18 @@ The model is consisted of the following:
 - Features and the final state of LSTMs are used to compute multiple attention distributions over image features. 
 - Image feature glimpses and the state of LSTM fed into two fully connected layers two produce probabilities over answer classes.
 
+![alt text]( https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/Architecture_2.png)
 
+A Pytorch implementation of this model can be achieved using [this github](https://github.com/DenisDsh/VizWiz-VQA-PyTorch)
+
+After training and validating on the Vizwiz dataset, we can see the results showing as follow:
+
+  ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/train_val_vizwiz_strong.png)
+
+
+As the original implementation is used on VizWiz dataset, we transfered the VQA v2 dataset' images as well as the annotations(questions and answers) to fit in the model, and then start training. As the VQA model is much larger than the Vizwiz, there is not enough usage time for the GPU and there is only a few epoches. And the results of the VQA dataset is shown as below:
+
+  ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/train_val_vqa_strong.png)
 
 ## Data Sets Exploratory Analysis 
 
