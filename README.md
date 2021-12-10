@@ -162,7 +162,7 @@ An additional feature that is found in both datasets is level of confidence. An 
 
 ## Poster:
 
-![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/Poster_EC601_VQA.pdf)
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/poster.png)
 
 
 ## References:
