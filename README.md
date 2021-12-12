@@ -30,7 +30,8 @@ Originally was a phone application aimed at helping blind people with their dail
 
 VizWiz vs VQA v-2
 
-![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/Comparison.png)
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/Comparison.png)![vqa_sunburst](https://user-images.githubusercontent.com/37981836/145705245-8f59861d-cd9d-481a-b0d3-30d065968f11.png)
+
 
 
 ### Reformatting Data:
@@ -124,10 +125,12 @@ The official github page for VinVL can be found [here](https://github.com/pzzhan
 ![alt text]( https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/Vinvl_structure.png)
 
 We fintuned the basic VinVL model for VQA task on VQA v2 dataset using the same parameters as the paper and got the following results.
-![alt text]( https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/vinvl_train_vqa_val_vqa.png.png)
+
+![alt text]( https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/vinvl_train_vqa_val_vqa.png)
 
 We fintuned the basic VinVL model for VQA task on VizWiz dataset and got the following results.
-![alt text]( https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/vinvl_train_vw_val_vw.png.png)
+
+![alt text]( https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/vinvl_train_vw_val_vw.png)
 
 ## Data Sets Exploratory Analysis 
 
@@ -145,9 +148,12 @@ Example for images:
 
 We see that images from VizWiz are blurry and sometimes don't contain the object of interest, which may lead to poor performance across all models when evaluated on VizWiz dataset. We also observe that image region features and object tags extracted from VinVL are often mislabeled, introducing false information to the prediction process. 
 
-![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/VizWiz_train_00000120_annotated.png)
 
-![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/VizWiz_train_00012233_annotated.png)
+|object of interest (the bottle) partially out of frame| wrong object labels (e.g. bottle, fish)|
+| --- | --- |
+| ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/VizWiz_train_00000120_annotated.png)| ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/VizWiz_train_00012233_annotated.png) |
+
+
 
 
 **Questions:** 
@@ -160,7 +166,12 @@ Second we visualized the distribution of number of words in the questions. We no
 
 We then created a sunburst plot for istribution of the first words of all the questions in VQA v2 and VizWiz. We observed that in vizwiz there is more diversity in the starting word used compared to VQA v2. 
 
-![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/sunburst_questions.png)
+<!-- ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/sunburst_questions.png) -->
+
+|VQA v2| VizWiz|
+| --- | --- |
+| ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/vqa_sunburst.png)| ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/vw_sunburst.png) |
+
 
 Finally, we created a word cloud to show the most prominent words used in the questions:
 
@@ -186,6 +197,7 @@ An additional feature that is found in both datasets is level of confidence. An 
 
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/poster.png)
 
+PDF of the poster can be found [here](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/poster.pdf)
 
 ## References:
 
