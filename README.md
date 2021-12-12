@@ -113,6 +113,22 @@ As the original implementation is used on VizWiz dataset, we transfered the VQA 
 
   ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/train_val_vqa_strong.png)
 
+### Model 3: VinVL: Revisiting Visual Representations in Vision-Language Models (https://arxiv.org/abs/2101.00529)
+
+ The model consists of the following: 
+  - Image region feature and object tag extraction using ResNext-152C4 
+  - pretrained BERT
+  - a linear classifier at the end to produce probabilities over answer classes.
+
+The official github page for VinVL can be found [here](https://github.com/pzzhang/VinVL).
+![alt text]( https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/Vinvl_structure.png)
+
+We fintuned the basic VinVL model for VQA task on VQA v2 dataset using the same parameters as the paper and got the following results.
+![alt text]( https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/vinvl_train_vqa_val_vqa.png.png)
+
+We fintuned the basic VinVL model for VQA task on VizWiz dataset and got the following results.
+![alt text]( https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/vinvl_train_vw_val_vw.png.png)
+
 ## Data Sets Exploratory Analysis 
 
 Due to the poor performance (Low accuracy) of validation of the vizwiz dataset on the models trained on VQA v2, we decided to investigate and further understand the differences between the dataset. In the hopes that this process will help us identify steps needed to get a better accuracy on the vizwiz dataset. 
@@ -126,6 +142,12 @@ Comparing the images in both data sets, we can observe that there is a size diff
 Example for images:
 
 ![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/images.png)
+
+We see that images from VizWiz are blurry and sometimes don't contain the object of interest, which may lead to poor performance across all models when evaluated on VizWiz dataset. We also observe that image region features and object tags extracted from VinVL are often mislabeled, introducing false information to the prediction process. 
+
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/VizWiz_train_00000120_annotated.png)
+
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/VizWiz_train_00012233_annotated.png)
 
 
 **Questions:** 
