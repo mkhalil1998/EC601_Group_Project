@@ -30,8 +30,7 @@ Originally was a phone application aimed at helping blind people with their dail
 
 VizWiz vs VQA v-2
 
-![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/Comparison.png)![vqa_sunburst](https://user-images.githubusercontent.com/37981836/145705245-8f59861d-cd9d-481a-b0d3-30d065968f11.png)
-
+![alt text](https://github.com/mkhalil1998/EC601_Group_Project/blob/main/Images/Comparison.png)
 
 
 ### Reformatting Data:
